@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0 auto;
+}
+
+:root{
+    /* Primary */  
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+  /* Neutral */
+  --Very-pale-blue: hsl(225, 100%, 98%);
+  --Desaturated-blue: hsl(224, 23%, 55%);
+  --Dark-blue: hsl(223, 47%, 23%);
+  }
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: var(--Pale-blue);
+}
+
+.container{
+    width: 375px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 70px;
+}
+
+.heroImg{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.header{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 12px;
+}
+
+.article p{
+    width: 83%;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    color: var(--Desaturated-blue); */
+}
+
+.article1{
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: var(--Very-pale-blue);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.plan-info h4 code{
+    color: var(--Desaturated-blue);
+}
+
+.change-info a {
+    color: var(--Bright-blue);
+}
+
+.payment{
+     display: flex;
+}
+
+.button{
+    width: 80%;
+    background-color: var(--Bright-blue);
+    color: var(--Very-pale-blue);
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.cancel-info{
+    margin-top: 15px;
+}
+
+.cancel-info h4{
+    text-align: center;
+    color: var(--Desaturated-blue);
+    padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 375px){
+    .container{
+        width: 320px;
+    }
+}
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
