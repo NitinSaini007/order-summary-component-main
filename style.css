@@ -17,13 +17,16 @@
 body {
     font-family: 'Red Hat Display', sans-serif;
     background-color: var(--Pale-blue);
+    display: grid;
+    place-items: center;
+    min height: 100vh;
 }
 
 .container{
     width: 375px;
     background-color: white;
     border-radius: 20px;
-    margin-top: 70px;
+    /* margin-top: 70px; */
 }
 
 .heroImg{
