@@ -63,8 +63,10 @@ body {
     color: var(--Desaturated-blue);
 }
 
-.change-info a {
+.change-info-details {
     color: var(--Bright-blue);
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .payment{
@@ -84,12 +86,18 @@ body {
 
 .cancel-info{
     margin-top: 15px;
+    display: flex;
 }
 
-.cancel-info h4{
+.cancel-info-details{
     text-align: center;
     color: var(--Desaturated-blue);
     padding-bottom: 20px;
+}
+
+.plan-info-details{
+    font-weight: bold;
+    padding-right: 30px;
 }
 
 @media only screen and (max-width: 375px){
